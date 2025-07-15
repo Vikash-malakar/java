@@ -1,0 +1,42 @@
+.cont{
+
+background-color: aqua;
+display: grid;
+grid-template-columns: 100px 200px 300px;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+height: 500px;
+}
+.item{
+
+background-color: yellow;
+margin:10px;
+
+
+}
+.contr{
+background-color: rgb(108, 108, 226);
+display: grid;
+grid-template-columns:20px 40px  20px;
+grid-template-columns: 1fr 1fr 1fr 1fr ;
+border: 2px solid black;
+
+
+
+}
+.iitem{
+
+display: grid;
+margin-top: 0%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+    
+}
+.iitem img{
+
+width: 300px;
+height: auto;
+
+
+}

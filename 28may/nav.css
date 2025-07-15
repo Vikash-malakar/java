@@ -1,0 +1,49 @@
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+}
+ nav ul {
+display: flex;
+justify-content:space-around;
+gap: 30px;
+text-decoration: none;
+list-style: none;
+background-image:linear-gradient(rgb(255, 72, 0),rgb(56, 255, 245),rgb(0, 119, 128));
+height: 70px;
+border: 1px solid black;
+align-items: center;
+
+
+}
+ nav ul li {
+
+border: 2px solid black;
+border-radius: 10px;
+width: fit-content;
+height: fit-content;
+margin-top: 20px;
+color: rgb(233, 23, 215);
+background-color:rgb(248, 238, 93);
+
+
+
+ }
+ form input {
+border: 2px solid black;
+height: 20px;
+width: 300px;
+padding: 18px;
+align-items: center;
+
+ }
+ label{
+
+    color: white;
+    font: 20px;
+    margin-right: 10px;
+
+ }
+
+
+ 
